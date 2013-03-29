@@ -1,0 +1,309 @@
+%% Based on a TeXnicCenter-Template by Tino Weinkauf.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% HEADER
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[a4paper,twoside,10pt]{report}
+% Alternative Options:
+%	Paper Size: a4paper / a5paper / b5paper / letterpaper / legalpaper / executivepaper
+% Duplex: oneside / twoside
+% Base Font Size: 10pt / 11pt / 12pt
+
+
+%% Language %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[french]{babel} %francais, polish, spanish, ...
+\usepackage[T1]{fontenc}
+\usepackage[ansinew]{inputenc}
+\usepackage[latin1]{inputenc}
+
+\usepackage{lmodern} %Type1-font for non-english texts and characters
+
+
+%% Packages for Graphics & Figures %%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{graphicx} %%For loading graphic files
+%\usepackage{subfig} %%Subfigures inside a figure
+%\usepackage{pst-all} %%PSTricks - not useable with pdfLaTeX
+
+%% Please note:
+%% Images can be included using \includegraphics{Dateiname}
+%% resp. using the dialog in the Insert menu.
+%% 
+%% The mode "LaTeX => PDF" allows the following formats:
+%%   .jpg  .png  .pdf  .mps
+%% 
+%% The modes "LaTeX => DVI", "LaTeX => PS" und "LaTeX => PS => PDF"
+%% allow the following formats:
+%%   .eps  .ps  .bmp  .pict  .pntg
+
+
+%% Math Packages %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+
+
+%% Line Spacing %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\usepackage{setspace}
+%\singlespacing        %% 1-spacing (default)
+%\onehalfspacing       %% 1,5-spacing
+%\doublespacing        %% 2-spacing
+
+
+%% Other Packages %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\usepackage{a4wide} %%Smaller margins = more text per page.
+%\usepackage{fancyhdr} %%Fancy headings
+%\usepackage{longtable} %%For tables, that exceed one page
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Remarks
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% TODO:
+% 1. Edit the used packages and their options (see above).
+% 2. If you want, add a BibTeX-File to the project
+%    (e.g., 'literature.bib').
+% 3. Happy TeXing!
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Options / Modifications
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\input{options} %You need a file 'options.tex' for this
+%% ==> TeXnicCenter supplies some possible option files
+%% ==> with its templates (File | New from Template...).
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% DOCUMENT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\pagestyle{empty} %No headings for the first pages.
+
+
+%% Title Page %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% ==> Write your text here or include other files.
+
+%% The simple version:
+\title{Grammaires et outils d'analyse de langages de programmation}
+\author{SENHAJI Ismail\\RHAFRANE Mohammed Akram\\BOUTCHICHE Mehdi\\BERTRAND Natnahel}
+%\date{} %%If commented, the current date is used.
+\maketitle
+%% The nice version:
+%\input{titlepage} %%You need a file 'titlepage.tex' for this.
+%% ==> TeXnicCenter supplies a possible titlepage file
+%% ==> with its templates (File | New from Template...).
+
+
+%% Inhaltsverzeichnis %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\tableofcontents%Table of contents
+\cleardoublepage %The first chapter should start on an odd page.
+
+\pagestyle{plain} %Now display headings: headings / fancy / ...
+
+
+
+%% Chapters %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% ==> Write your text here or include other files.
+
+%\input{intro} %You need a file 'intro.tex' for this.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% ==> Some hints are following:
+
+\chapter{Résumé}
+\label{hints}
+
+\chapter{Introduction}
+\label{hints}
+
+\chapter{Fondamenteux}
+\label{hints}
+\section{Langages et grammaires}
+\subsection{Défintion}
+		Un langage formel est un ensemble de mots constitués de symboles qui appartiennent à son alphabet.
+Un langage formel est décrit par une grammaire. 
+
+De manière générale, une grammaire est définie par un quadruplet:
+?	N : l’ensemble des non-terminaux utilisés pour décrire les règles de productions
+?	X : l’ensemble des terminaux, c’est à dire les symboles ou encore l’alphabet
+?	P : l’ensemble des règles de production
+?	S : l’axiome, c’est un élément de N
+Ainsi, la notation: G(L) = <N, X, P, S> décrit la grammaire G associée au langage L.
+
+Les grammaires sont analysées par des automates. Il existe plusieurs types d’analyses de grammaires qui font appels à plusieurs types d’automates.
+Dans le monde de la compilation l’analyseur syntaxique fait référence à l’algorithme qui met en oeuvre l’automate d’analyse d’une grammaire.
+Dans cet écrit, nous nous attarderons sur deux types d’analyseurs: les analyseurs de type LL et ceux de type L(AL)R.
+\subsection{Grammaire ambigue}
+	On dit qu’une grammaire est ambiguë  lorsqu’on peut trouver deux arbres de dérivation différents pour le même mot.
+Les grammaires ambiguë pose un problème lors de la compilation, c’est pour ça qu’il est préférable de les transformer en grammaire non ambiguë si c’est possible.
+\end{section}
+\section{Analyse Lexicale}
+\subsection{Défintion}
+	l’analyse lexicale consiste à découper une chaîne de caractère en unités lexicales ou lexèmes à la demande de l’analyseur lexicale.
+Il est définit par un ensembles d’expressions relationnelle qui exigent certaines séquences de caractère pour former les lexèmes.
+\subsection{Segmentation}
+	La segmentation est le fait de séparer les différentes sections d’une chaînes de caractères, par exemple pour une phrase l’ordinateur la considère comme une chaîne de caractère et non pas une suite de mot, le rôle de la segmentation est donc de faire une séparation entre ces mots selon le caractère de séparation dans ce cas le caractère espace. 
+\subsection{Unités lexicales}
+	Une unité lexicale ou un lexème est une chaîne de caractère qui correspond à un symbole. à l’aide du processus de segmentation, on peut extraire à partir d’un flux de caractères entrant une suite d’unités lexicales, ensuite c’est l’analyseur lexicale qui traitent ces lexème et les rangent dans des catégories d’entités lexicales.
+\end{section}
+\section{Analyse syntaxique}
+\subsection{Défintion}
+	Le rôle de l’analyse syntaxique est de savoir si une phrase appartient à la syntaxe d’un langage.
+A partir du flot de lexèmes construits par l’analyse lexicale dans un premier temps, l’analyse syntaxique permet de générer un arbre de syntaxe abstraite.
+Cet arbre est construit à base d’un ensembles de règles définissant une grammaire formelle sur laquelle est basé le langage en question.
+l’analyse syntaxique permet plus particulièrement de détecter les erreurs de syntaxe en continuant tout de même l’analyse pour éviter les cycles de compilation/correction pour les développeurs.
+un analyseur syntaxique doit retracer le cheminement d’application des règles qui ont menées à l’axiome. Pour ça, il existe deux types d’analyse:
+\subsection{Analyse descendante}
+	Le principe de l’analyse ascendante  est de partir de l’axiome en suivant les règles de production afin de retrouver le texte analysé. Ce type d’analyse procède en découpant le texte petit à petit jusqu'à retrouver les unité lexicale. L’analyse LL est un exemple d’analyse descendante.
+\subsection{Analyse ascendante}
+	L’analyse descendante d’une autre part, procède contrairement à l’analyse syntaxique en retrouvant le cheminement à partir du texte analysé. Ce type d’analyse essaye de regrouper les unité lexicale entre elles pour retrouver l’axiome. L’analyse LR est un exemple d’analyse ascendante.
+\end{section}
+\section{LL *}
+\subsection{Défintion}
+	Descente récursive ou prédicative: pour les grammaires simple ou le premier symbole terminal fournie des informations suffisantes pour choisir la règle de production.
+Pas possible si grammaire récursive à gauche.
+Besoin de factorisation à gauche lorsque 2 règles commencent par le même lexème.
+Mais cette méthode à une faiblesse, c’est qu’elle doit toujours prédire qu’elle règle utiliser.
+\end{section}
+\section{LL A R}
+\subsection{LR}
+	Dérivation à droite permet de rapporter le choix de la règle de production à utiliser.
+Elle commence du bas vers le haut.
+L’algorithme s’arrête quand tous les caractères ont été lus. La chaîne est accépté si la partie analysée se réduit à l’axiome. 
+\subsection{LALR}
+	Utilisé lorsque le traitement des données doit répondre à de multiples cas et lorsque la
+résolution par la programmation “standard” ne permettait pas une maintenance facile.
+Yacc et GNU Bison sont des analyseur grammaticaux.
+\end{section}
+\chapter{Comparaison entre les outils}
+\label{hints}
+\section{YACC/BISON/CUP/JFLEX}
+\subsection{YACC}
+	Utilisé lorsque le traitement des données doit répondre à de multiples cas et lorsque la
+résolution par la programmation “standard” ne permettait pas une maintenance facile.
+Yacc et GNU Bison sont des analyseur grammaticaux.
+\subsection{Spécifications}
+	La spécification est l’ensemble des données qui permettront à YACC de générer l’analyseur. Elle décrit le langage qui sera reconnu sous forme de règles de grammaires. De cette façon l’analyseur a les connaissances pour définir si un flux donné en entrée est syntaxiquement correcte par rapport à sa spécification.
+Cependant, un analyseur syntaxique est souvent utilisé dans le contexte de traduction de langage. La spécification permet cette fonctionnalité puisqu’il est possible de spécifier des actions associées aux règles de grammaire.
+\end{section}
+\section{ANTLR}
+\subsection{Défintions}
+	ANTLR est un Générateur de  Parseur public, il permet d’utiliser plusieurs langages et intégre la description Lexical/Syntaxique.
+Grammaire LL k
+ANTLR est un PARSEUR qui permet d’effectuer toutes les tâches où les autres PARSEUR échoue, il permet aussi d’établir le lien entre le SCANNER, rapporter les erreurs et aussi construire l’arbre syntaxique, ceci sont des actions généralement fait à la main dans le cas d’autres PARSEUR.
+\subsection{Features}
+	Différencier entre l’analyse Syntaxique et Lexical
+	Faciliter de construction d’un arbre syntaxique
+	Faciliter de détection d’erreur
+	Portabilité en C ….
+	…........................
+\subsection{Elèments de langages}
+	Grâce à des éléments de langages, ANTRLR différencie entre  le Prédicat Syntaxique et Semantique  comme l’exemple précèdent.
+\subsection{Grammaire}
+	ANTLR à aussi besoin de beacoup mois de LL pour différencier entre les alternatives de fins
+exemple : LL3 pour un autre Parseur Vs LL 1 pour ANTLR
+ANTLR utilise des labels pour accéder au attributs , on utilisant ce procédé, la grammaire et beacoup plus lisible.
+PARSEUR classique  ce référence à la table des symboles pour résoudre une ambiguïté  syntaxique
+ANTLR  Utilise un prédicat syntaxique grâce à ces éléments de langages.
+Une description ANTLR contient à la fois la spécification ( Analyseur Lexical) et la grammaire ce qui permet de les grouper dans un seule fichier. Ceci est fait grâce au élément ANTLR (et les labels) qui permet de détecter et de différencier entre les grammaires et les TOKENS
+ANTLR permet aussi d’utiliser plusieurs Analyseur lexical dans la même description ANTLR
+\subsection{Gestion d'erreurs}
+	Heuristique bien définie et efficace (gestion simple)
+	PARSER EXCEPTION HANDLING pour une gestion plus sophistiquer
+\subsection{L'arbre}
+	Grâce à ces éléments de langage, ANTLR réussi à construire automatiquement son AST ABSTRACT SYNTAXIC TREE
+ANTLR génère du code C et Cpp pour un Parseur de descente récursive ou toutes les 
+règles de grammaires sont réalisé par des fonctions C / C++
+\end{section}
+\section{XTEXT}
+\subsection{Défintions}
+	Xtext est un framework pour le développement de langages de programmation et de DSL Domain Specific programming language .
+DSL est un langage de programmation dont les spécifications sont à un domaine d’applications précis , la construction des langages dédiés diffère fondamentalement de celle d’un langage classique, le processus de développement  peut s'avérer très complexe, sa conception nécessite une double compétence sur le domaine à traiter et en développement informatique(exp :SQL:destiné à interroger ou manipuler une base de données relationnelle)
+Le framework Xtext s’appuie sur sur une grammaire générée ANTLR ainsi que le framework de modelisation EMF.
+Xtext couvre tous les aspects d’un IDE moderne : parseur, compilateur ,interpreteur et integration complete dans l’environnement de developpement Eclipse.
+Xtext fournit un environnement convivial aux utilisateurs d’un DSL.
+Parmi les fonctionnalités qu’offre Xtext:
+*coloration syntaxique; suivant les éléments de la grammaire , Xtext propose une *coloration syntaxique entièrement personnalisable.
+*auto complétion: auto complétion sur les éléments du langage 
+*validation: Xtext valide le contenu de l'éditeur à la volée, produisant ainsi un retour direct à l’utilisateur en cas d’erreur de syntaxe.
+*intégration avec d’autres composants Eclipse 
+\end{section}
+\chapter{Conclusion}
+\label{hints}
+\end{chapter}
+\chapter{Références}
+\label{hints}
+\chapter{Some small hints}
+\label{hints}
+\section{German Umlauts and other Language Specific Characters}
+\label{umlauts}
+You can type german umlauts like 'ä', 'ö', or 'ü' directly in this file.
+This is also true for other language specific characters like 'é', 'è' etc.
+There are problems with automatic hyphenation when using language
+specific characters and OT1-encoded fonts. In this case, use a
+T1-encoded Type1-font like the Latin Modern font family (\verb#\usepackage{lmodern}#).
+\section{References}
+\label{references}
+Using the commands \verb#\label{name}# and \verb#\ref{name}# you are able
+to use references in your document. Advantage: You do not need to think
+about numerations, because \LaTeX\ is doing that for you.
+For example, in section \ref{dividing} on page \pageref{dividing} hints for
+dividing large documents are given.
+Certainly, references do also work for tables, figures, formulas\ldots
+Please notice, that \LaTeX\ usually needs more than one run (mostly 2) to
+resolve those references correctly.
+\section{Dividing Large Documents}
+\label{dividing}
+You can divide your \LaTeX-Document into an arbitrary number of \TeX-Files
+to avoid too big and therefore unhandy files (e.g. one file for every chapter).
+For this, you insert in your main file (this one) for every subfile
+the command '\verb#\input{subfile}#'. This leads to the same behavior
+as if the content of the subfile would be at the place of the \verb#\input#-Command.
+
+%% <== End of hints
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% BIBLIOGRAPHY AND OTHER LISTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% A small distance to the other stuff in the table of contents (toc)
+\addtocontents{toc}{\protect\vspace*{\baselineskip}}
+
+%% The Bibliography
+%% ==> You need a file 'literature.bib' for this.
+%% ==> You need to run BibTeX for this (Project | Properties... | Uses BibTeX)
+%\addcontentsline{toc}{chapter}{Bibliography} %'Bibliography' into toc
+%\nocite{*} %Even non-cited BibTeX-Entries will be shown.
+%\bibliographystyle{alpha} %Style of Bibliography: plain / apalike / amsalpha / ...
+%\bibliography{literature} %You need a file 'literature.bib' for this.
+
+%% The List of Figures
+\clearpage
+\addcontentsline{toc}{chapter}{List of Figures}
+\listoffigures
+
+%% The List of Tables
+\clearpage
+\addcontentsline{toc}{chapter}{List of Tables}
+\listoftables
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% APPENDICES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\appendix
+%% ==> Write your text here or include other files.
+
+%\input{FileName} %You need a file 'FileName.tex' for this.
+
+
+\end{document}
+
