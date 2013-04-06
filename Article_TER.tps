@@ -17,7 +17,7 @@ Class=LaTeXView
 Document=Article_TER.tex
 
 [Frame0_View0,0]
-TopLine=102
+TopLine=135
 Cursor=16689
 
 [SessionInfo]

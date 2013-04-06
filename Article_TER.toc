@@ -1,42 +1,41 @@
 \select@language {french}
-\contentsline {chapter}{\numberline {1}R\'esum\'e}{5}
-\contentsline {chapter}{\numberline {2}Introduction}{6}
-\contentsline {chapter}{\numberline {3}Fondamenteux}{7}
-\contentsline {section}{\numberline {3.1}Langages et grammaires}{7}
-\contentsline {subsection}{\numberline {3.1.1}D\'efintion}{7}
-\contentsline {subsection}{\numberline {3.1.2}Grammaire ambigue}{7}
-\contentsline {section}{\numberline {3.2}Analyse Lexicale}{7}
-\contentsline {subsection}{\numberline {3.2.1}D\'efintion}{7}
-\contentsline {subsection}{\numberline {3.2.2}Segmentation}{8}
-\contentsline {subsection}{\numberline {3.2.3}Unit\'es lexicales}{8}
-\contentsline {section}{\numberline {3.3}Analyse syntaxique}{8}
-\contentsline {subsection}{\numberline {3.3.1}D\'efintion}{8}
-\contentsline {subsection}{\numberline {3.3.2}Analyse descendante}{8}
-\contentsline {subsection}{\numberline {3.3.3}Analyse ascendante}{8}
-\contentsline {section}{\numberline {3.4}LL *}{9}
-\contentsline {subsection}{\numberline {3.4.1}D\'efintion}{9}
-\contentsline {section}{\numberline {3.5}LL A R}{9}
-\contentsline {subsection}{\numberline {3.5.1}LR}{9}
-\contentsline {subsection}{\numberline {3.5.2}LALR}{9}
-\contentsline {chapter}{\numberline {4}Comparaison entre les outils}{10}
-\contentsline {section}{\numberline {4.1}YACC/BISON/CUP/JFLEX}{10}
-\contentsline {subsection}{\numberline {4.1.1}YACC}{10}
-\contentsline {subsection}{\numberline {4.1.2}Sp\'ecifications}{10}
-\contentsline {section}{\numberline {4.2}ANTLR}{10}
-\contentsline {subsection}{\numberline {4.2.1}D\'efintions}{10}
-\contentsline {subsection}{\numberline {4.2.2}Features}{11}
-\contentsline {subsection}{\numberline {4.2.3}El\`ements de langages}{11}
-\contentsline {subsection}{\numberline {4.2.4}Grammaire}{11}
-\contentsline {subsection}{\numberline {4.2.5}Gestion d'erreurs}{11}
-\contentsline {subsection}{\numberline {4.2.6}L'arbre}{11}
-\contentsline {section}{\numberline {4.3}XTEXT}{11}
-\contentsline {subsection}{\numberline {4.3.1}D\'efintions}{11}
-\contentsline {chapter}{\numberline {5}Conclusion}{13}
-\contentsline {chapter}{\numberline {6}R\'ef\'erences}{14}
-\contentsline {chapter}{\numberline {7}Some small hints}{15}
-\contentsline {section}{\numberline {7.1}German Umlauts and other Language Specific Characters}{15}
-\contentsline {section}{\numberline {7.2}References}{15}
-\contentsline {section}{\numberline {7.3}Dividing Large Documents}{15}
+\contentsline {chapter}{\numberline {1}R\'esum\'e}{3}{chapter.1}
+\contentsline {chapter}{\numberline {2}Introduction}{4}{chapter.2}
+\contentsline {chapter}{\numberline {3}Fondamenteux}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}Langages et grammaires}{5}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}D\'efintion}{5}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Grammaire ambigue}{5}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Analyse Lexicale}{5}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}D\'efintion}{5}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Segmentation}{6}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Unit\'es lexicales}{6}{subsection.3.2.3}
+\contentsline {section}{\numberline {3.3}Analyse syntaxique}{6}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}D\'efintion}{6}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Analyse descendante}{6}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Analyse ascendante}{6}{subsection.3.3.3}
+\contentsline {section}{\numberline {3.4}LL *}{7}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}D\'efintion}{7}{subsection.3.4.1}
+\contentsline {section}{\numberline {3.5}LL A R}{7}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}LR}{7}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}LALR}{7}{subsection.3.5.2}
+\contentsline {chapter}{\numberline {4}Comparaison entre les outils}{8}{chapter.4}
+\contentsline {section}{\numberline {4.1}YACC/BISON/CUP/JFLEX}{8}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}YACC}{8}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Sp\'ecifications}{8}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}ANTLR}{8}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}D\'efintions}{8}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Features}{9}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}El\`ements de langages}{9}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Grammaire}{9}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.5}Gestion d'erreurs}{9}{subsection.4.2.5}
+\contentsline {subsection}{\numberline {4.2.6}L'arbre}{9}{subsection.4.2.6}
+\contentsline {section}{\numberline {4.3}XTEXT}{9}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}D\'efintions}{9}{subsection.4.3.1}
+\contentsline {chapter}{\numberline {5}Conclusion}{11}{chapter.5}
+\contentsline {chapter}{\numberline {6}R\'ef\'erences}{12}{chapter.6}
+\contentsline {chapter}{\numberline {7}Some small hints}{13}{chapter.7}
+\contentsline {section}{\numberline {7.1}German Umlauts and other Language Specific Characters}{13}{section.7.1}
+\contentsline {section}{\numberline {7.2}References}{13}{section.7.2}
 \vspace *{\baselineskip }
-\contentsline {chapter}{List of Figures}{16}
-\contentsline {chapter}{List of Tables}{17}
+\contentsline {chapter}{List of Figures}{14}{section.7.2}
+\contentsline {chapter}{List of Tables}{15}{chapter*.2}
