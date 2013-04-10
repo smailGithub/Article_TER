@@ -11,14 +11,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=666
-NormalPos.bottom=435
+NormalPos.right=1082
+NormalPos.bottom=671
 Class=LaTeXView
 Document=Article_TER.tex
 
 [Frame0_View0,0]
-TopLine=102
-Cursor=16689
+TopLine=93
+Cursor=3480
 
 [SessionInfo]
 FrameCount=1

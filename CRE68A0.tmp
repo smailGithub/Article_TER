@@ -16,7 +16,6 @@
 \usepackage[T1]{fontenc}
 \usepackage[ansinew]{inputenc}
 \usepackage[latin1]{inputenc}
-
 \usepackage{lmodern} %Type1-font for non-english texts and characters
 
 

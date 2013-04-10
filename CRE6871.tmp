@@ -218,7 +218,8 @@ Les prédicats sémantiques indiquent la validité sémantique d’une production, les
 \subsection{Eléments de langages}
 	Le tableau illustre quelques éléments de langage spécifique à ANTLR qui le distinguent des autres générateurs de parseurs.
 	
-
+	\begin{table*}
+		\centering
 			\begin{tabular}
 				\hline
 				Elément de langages & Description & Exemple \\
@@ -228,7 +229,7 @@ Les prédicats sémantiques indiquent la validité sémantique d’une production, les
 				\left(...\right) & régle & \left("int" \left| ID \left| storage_class\right) \\
 				\hline
 			\end{tabular}
-
+	\end{table*}
 	
 \subsection{Grammaire}
 	ANTLR à aussi besoin de beacoup mois de LL pour différencier entre les alternatives de fins

@@ -220,7 +220,7 @@ Les prédicats sémantiques indiquent la validité sémantique d’une production, les
 	
 
 			\begin{tabular}
-				\hline
+				\hline 
 				Elément de langages & Description & Exemple \\
 				\hline
 				Token & Commence par une majuscule & ID
