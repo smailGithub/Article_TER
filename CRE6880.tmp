@@ -126,10 +126,10 @@
 \chapter{Introduction}
 \label{hints}
 
-\chapter{Fondamentaux}
+\chapter{Fondamenteux}
 \label{hints}
 \section{Langages et grammaires}
-\subsection{Définition}
+\subsection{Défintion}
 		Un langage formel est un ensemble de mots constitués de symboles qui appartiennent à son alphabet.
 Un langage formel est décrit par une grammaire. 
 
@@ -217,18 +217,18 @@ Les prédicats sémantiques indiquent la validité sémantique d’une production, les
 		\end{itemize}
 \subsection{Eléments de langages}
 	Le tableau illustre quelques éléments de langage spécifique à ANTLR qui le distinguent des autres générateurs de parseurs.
-	
-
-			\begin{tabular}
-				\hline
-				Elément de langages & Description & Exemple \\
-				\hline
-				Token & Commence par une majuscule & ID
-				\prec\prec...\succ\succ & Définie une action sémantique & \prec\prec \left printf\left("\%s",a\right);\succ\succ \\
-				\left(...\right) & régle & \left("int" \left| ID \left| storage_class\right) \\
-				\hline
-			\end{tabular}
-
+		
+		%\begin{tabular}
+			%	\hline
+				%Elément de langages & Description & Exemple \\
+				%\hline
+				%Token & Commence par une majuscule & ID
+				%\prec\prec...\succ\succ & Définie une action sémantique & \prec\prec \left printf\left("\%s",a\right);\succ\succ \\
+				%\left(...\right) & régle & \left("int" \left| ID \left| storage_class\right) \\
+				
+				%\hline
+			%\end{tabular}
+tes 
 	
 \subsection{Grammaire}
 	ANTLR à aussi besoin de beacoup mois de LL pour différencier entre les alternatives de fins
@@ -261,7 +261,7 @@ Parmi les fonctionnalités qu’offre Xtext:
 
 \chapter{Conclusion}
 \label{hints}
-%% \end{chapter} %% c'est quoi ce "end" ?
+\end{chapter}
 \chapter{Références}
 \label{hints}
 \chapter{Some small hints}

@@ -16,7 +16,6 @@
 \usepackage[T1]{fontenc}
 \usepackage[ansinew]{inputenc}
 \usepackage[latin1]{inputenc}
-
 \usepackage{lmodern} %Type1-font for non-english texts and characters
 
 
@@ -96,7 +95,7 @@
 \title{Grammaires et outils d'analyse de langages de programmation}
 \author{SENHAJI Ismail\\RHAFRANE Mohammed Akram\\BOUTCHICHE Mehdi\\BERTRAND Nathanael}
 %\date{} %%If commented, the current date is used.
-\maketitle
+
 %% The nice version:
 %\input{titlepage} %%You need a file 'titlepage.tex' for this.
 %% ==> TeXnicCenter supplies a possible titlepage file
@@ -126,10 +125,10 @@
 \chapter{Introduction}
 \label{hints}
 
-\chapter{Fondamentaux}
+\chapter{Fondamenteux}
 \label{hints}
 \section{Langages et grammaires}
-\subsection{Définition}
+\subsection{Défintion}
 		Un langage formel est un ensemble de mots constitués de symboles qui appartiennent à son alphabet.
 Un langage formel est décrit par une grammaire. 
 
@@ -261,7 +260,7 @@ Parmi les fonctionnalités qu’offre Xtext:
 
 \chapter{Conclusion}
 \label{hints}
-%% \end{chapter} %% c'est quoi ce "end" ?
+\end{chapter}
 \chapter{Références}
 \label{hints}
 \chapter{Some small hints}

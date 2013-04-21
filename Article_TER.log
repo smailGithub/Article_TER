@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.29)  6 APR 2013 15:50
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.29)  7 APR 2013 14:43
 entering extended mode
 **Article_TER.tex
 ("C:\Documents and Settings\Administrateur\Mes documents\Article_TER\Article_TER.tex"
@@ -236,140 +236,7 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-("C:\Documents and Settings\Administrateur\Mes documents\MikeTex\tex\latex\hyperref\hyperref.sty"
-Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
-
-("C:\Documents and Settings\Administrateur\Mes documents\MikeTex\tex\generic\oberdiek\hobsub-hyperref.sty"
-Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
-
-("C:\Documents and Settings\Administrateur\Mes documents\MikeTex\tex\generic\oberdiek\hobsub-generic.sty"
-Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
-Package hobsub Info: Skipping package `infwarerr' (already loaded).
-Package hobsub Info: Skipping package `ltxcmds' (already loaded).
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
-Package ifvtex Info: VTeX not detected.
-Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
-Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO)
-Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
-Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
-)
-Package hobsub Info: Skipping package `hobsub' (already loaded).
-Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
-Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
-Package: xcolor-patch 2011/01/30 xcolor patch
-Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
-Package atveryend Info: \enddocument detected (standard20110627).
-Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
-Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
-Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
-)
-("C:\Documents and Settings\Administrateur\Mes documents\MikeTex\tex\generic\ifxetex\ifxetex.sty"
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-)
-("C:\Documents and Settings\Administrateur\Mes documents\MikeTex\tex\latex\oberdiek\auxhook.sty"
-Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
-)
-("C:\Documents and Settings\Administrateur\Mes documents\MikeTex\tex\latex\oberdiek\kvoptions.sty"
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
-)
-\@linkdim=\dimen117
-\Hy@linkcounter=\count104
-\Hy@pagecounter=\count105
-
-("C:\Documents and Settings\Administrateur\Mes documents\MikeTex\tex\latex\hyperref\pd1enc.def"
-File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
-)
-\Hy@SavedSpaceFactor=\count106
-
-("C:\Documents and Settings\Administrateur\Mes documents\MikeTex\tex\latex\00miktex\hyperref.cfg"
-File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
-)
-Package hyperref Info: Option `colorlinks' set `true' on input line 4319.
-Package hyperref Info: Option `hyperindex' set `true' on input line 4319.
-Package hyperref Info: Option `bookmarks' set `true' on input line 4319.
-Package hyperref Info: Hyper figures OFF on input line 4443.
-Package hyperref Info: Link nesting OFF on input line 4448.
-Package hyperref Info: Hyper index ON on input line 4451.
-Package hyperref Info: Plain pages OFF on input line 4458.
-Package hyperref Info: Backreferencing OFF on input line 4463.
-Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count107
-
-("C:\Documents and Settings\Administrateur\Mes documents\MikeTex\tex\latex\ltxmisc\url.sty"
-\Urlmuskip=\muskip11
-Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
-)
-LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen118
-\Fld@menulength=\count108
-\Field@Width=\dimen119
-\Fld@charsize=\dimen120
-Package hyperref Info: Hyper figures OFF on input line 6295.
-Package hyperref Info: Link nesting OFF on input line 6300.
-Package hyperref Info: Hyper index ON on input line 6303.
-Package hyperref Info: backreferencing OFF on input line 6310.
-Package hyperref Info: Link coloring ON on input line 6313.
-Package hyperref Info: Link coloring with OCG OFF on input line 6320.
-Package hyperref Info: PDF/A mode OFF on input line 6325.
-LaTeX Info: Redefining \ref on input line 6365.
-LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count109
-\c@Item=\count110
-\c@Hfootnote=\count111
-)
-
-Package hyperref Message: Driver (autodetected): hpdftex.
-
-("C:\Documents and Settings\Administrateur\Mes documents\MikeTex\tex\latex\hyperref\hpdftex.def"
-File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count112
-\c@bookmark@seq@number=\count113
-
-("C:\Documents and Settings\Administrateur\Mes documents\MikeTex\tex\latex\oberdiek\rerunfilecheck.sty"
-Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 282.
-)
-\Hy@SectionHShift=\skip49
-)
-("C:\Documents and Settings\Administrateur\Mes documents\Article_TER\Article_TER.aux"
-
-LaTeX Warning: Label `hints' multiply defined.
-
-
-LaTeX Warning: Label `hints' multiply defined.
-
-
-LaTeX Warning: Label `hints' multiply defined.
-
-
-LaTeX Warning: Label `hints' multiply defined.
-
-
-LaTeX Warning: Label `hints' multiply defined.
-
-
-LaTeX Warning: Label `hints' multiply defined.
-
-)
+("C:\Documents and Settings\Administrateur\Mes documents\Article_TER\Article_TER.aux")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 87.
 LaTeX Font Info:    ... okay on input line 87.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 87.
@@ -382,10 +249,9 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 87.
 LaTeX Font Info:    ... okay on input line 87.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 87.
 LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
 LaTeX Font Info:    Try loading font information for T1+lmr on input line 87.
- ("C:\Documents and Settings\Administrateur\Mes documents\MikeTex\tex\latex\lm\t1lmr.fd"
+
+("C:\Documents and Settings\Administrateur\Mes documents\MikeTex\tex\latex\lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Info: Redefining \degres on input line 87.
@@ -394,225 +260,69 @@ LaTeX Info: Redefining \up on input line 87.
 
 ("C:\Documents and Settings\Administrateur\Mes documents\MikeTex\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count114
-\scratchdimen=\dimen121
+\scratchcounter=\count104
+\scratchdimen=\dimen117
 \scratchbox=\box28
-\nofMPsegments=\count115
-\nofMParguments=\count116
+\nofMPsegments=\count105
+\nofMParguments=\count106
 \everyMPshowfont=\toks28
-\MPscratchCnt=\count117
-\MPscratchDim=\dimen122
-\MPnumerator=\count118
-\makeMPintoPDFobject=\count119
+\MPscratchCnt=\count107
+\MPscratchDim=\dimen118
+\MPnumerator=\count108
+\makeMPintoPDFobject=\count109
 \everyMPtoPDFconversion=\toks29
 )
-\AtBeginShipoutBox=\box29
- ("C:\Documents and Settings\Administrateur\Mes documents\MikeTex\tex\latex\graphics\color.sty"
-Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
-
-("C:\Documents and Settings\Administrateur\Mes documents\MikeTex\tex\latex\00miktex\color.cfg"
-File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
-)
-Package color Info: Driver file: pdftex.def on input line 130.
-)
-Package hyperref Info: Link coloring ON on input line 87.
-
-("C:\Documents and Settings\Administrateur\Mes documents\MikeTex\tex\latex\hyperref\nameref.sty"
-Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
-
-("C:\Documents and Settings\Administrateur\Mes documents\MikeTex\tex\generic\oberdiek\gettitlestring.sty"
-Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
-)
-\c@section@level=\count120
-)
-LaTeX Info: Redefining \ref on input line 87.
-LaTeX Info: Redefining \pageref on input line 87.
-LaTeX Info: Redefining \nameref on input line 87.
-
-("C:\Documents and Settings\Administrateur\Mes documents\Article_TER\Article_TER.out")
-("C:\Documents and Settings\Administrateur\Mes documents\Article_TER\Article_TER.out")
-\@outlinefile=\write3
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 104.
-
-("C:\Documents and Settings\Administrateur\Mes documents\MikeTex\tex\latex\lm\ot1lmr.fd"
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 99.
+ ("C:\Documents and Settings\Administrateur\Mes documents\MikeTex\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 104.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 99.
 
 ("C:\Documents and Settings\Administrateur\Mes documents\MikeTex\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 104.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 99.
 
 ("C:\Documents and Settings\Administrateur\Mes documents\MikeTex\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 104.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 99.
 
 ("C:\Documents and Settings\Administrateur\Mes documents\MikeTex\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 104.
+(Font)              <12> on input line 99.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 104.
+(Font)              <8> on input line 99.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 104.
-LaTeX Font Info:    Try loading font information for U+msa on input line 104.
+(Font)              <6> on input line 99.
+LaTeX Font Info:    Try loading font information for U+msa on input line 99.
 
 ("C:\Documents and Settings\Administrateur\Mes documents\MikeTex\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 104.
+LaTeX Font Info:    Try loading font information for U+msb on input line 99.
 
 ("C:\Documents and Settings\Administrateur\Mes documents\MikeTex\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
-
-{C:/Documents and Settings/All Users/Application Data/MiKTeX/2.9/pdftex/config/pdftex.map}]
-
-Package hyperref Warning: old toc file detected, not used; run LaTeX again.
-
-\tf@toc=\write4
-[2
-
-]
-Chapitre 1.
-[3
-
-
-]
-Chapitre 2.
-[4
-
-]
-Chapitre 3.
-[5
-
-]
-Overfull \hbox (3.55688pt too wide) in paragraph at lines 169--170
-\T1/lmr/m/n/10 d'ana-lyse es-saye de re-grou-per les unité lexi-cale entre elles pour re-trou-ver l'axiome.
- []
-
-
-Underfull \vbox (badness 1436) has occurred while \output is active []
-
- [6] [7]
-Chapitre 4.
-
-Overfull \hbox (45.25575pt too wide) in paragraph at lines 205--210
-\T1/lmr/m/n/10 d'un arbre syn-taxique Fa-ci-li-ter de dé-tec-tion d'er-reur Por-ta-bi-lité en C .... ...................
-........ 
- []
-
-
-Underfull \vbox (badness 1360) has occurred while \output is active []
-
- [8
-
-] [9] [10]
-Chapitre 5.
-
-! LaTeX Error: \begin{document} ended by \end{chapter}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.243 \end{chapter}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.243 \end{chapter}
-                   
-Things are pretty mixed up, but I think the worst is over.
-
-[11
-
-]
-Chapitre 6.
-[12
-
-]
-Chapitre 7.
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 254.
-("C:\Documents and Settings\Administrateur\Mes documents\MikeTex\tex\latex\lm\t1lmtt.fd"
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 259.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 259.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 259.
-
-Runaway argument?
-{\@firstoffive }\fi  on page \pageref {dividing} hints for dividing l\ETC.
-! Paragraph ended before \Hy@setref@link was complete.
+! I can't write on file `Article_TER.pdf'.
+Please type another file name for output
+! Emergency stop.
 <to be read again> 
-                   \par 
-l.272 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
+                   \endgroup \set@typeset@protect 
+l.99 \maketitle
+               
+*** (job aborted, file error in nonstop mode)
 
-[13
-
-]
-
-Package hyperref Warning: old lof file detected, not used; run LaTeX again.
-
-\tf@lof=\write5
-[14
-
-
-]
-
-Package hyperref Warning: old lot file detected, not used; run LaTeX again.
-
-\tf@lot=\write6
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 312.
-[15
-
-
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 312.
- ("C:\Documents and Settings\Administrateur\Mes documents\Article_TER\Article_TER.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 312.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 312.
-Package rerunfilecheck Info: File `Article_TER.out' has not changed.
-(rerunfilecheck)             Checksum: 84C8B8A4CA7FCE9B68B057F8ACC3D92B;2451.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 312.
- )
-(\end occurred when \ifx on line 260 was incomplete) 
+ 
 Here is how much of TeX's memory you used:
- 6870 strings out of 493921
- 103064 string characters out of 3133166
- 183756 words of memory out of 3000000
- 9996 multiletter control sequences out of 15000+200000
- 62030 words of font info for 58 fonts, out of 3000000 for 9000
+ 2907 strings out of 493921
+ 40608 string characters out of 3133166
+ 92758 words of memory out of 3000000
+ 6162 multiletter control sequences out of 15000+200000
+ 25667 words of font info for 34 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 29i,6n,28p,473b,390s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Documents and Settings/Administrateur/Mes documents/MikeTex/font
-s/enc/dvips/lm/lm-ec.enc}<C:/Documents and Settings/Administrateur/Mes documents/MikeTex/fonts/type1/public/lm/lmbx12.pf
-b><C:/Documents and Settings/Administrateur/Mes documents/MikeTex/fonts/type1/public/lm/lmr10.pfb><C:/Documents and Sett
-ings/Administrateur/Mes documents/MikeTex/fonts/type1/public/lm/lmr12.pfb><C:/Documents and Settings/Administrateur/Mes 
-documents/MikeTex/fonts/type1/public/lm/lmr17.pfb><C:/Documents and Settings/Administrateur/Mes documents/MikeTex/fonts/
-type1/public/lm/lmr7.pfb><C:/Documents and Settings/Administrateur/Mes documents/MikeTex/fonts/type1/public/lm/lmtt10.pf
-b>
-Output written on Article_TER.pdf (15 pages, 193231 bytes).
-PDF statistics:
- 265 PDF objects out of 1000 (max. 8388607)
- 56 named destinations out of 1000 (max. 500000)
- 313 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 27i,6n,24p,226b,193s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!
